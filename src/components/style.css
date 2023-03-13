@@ -1,0 +1,67 @@
+body {
+  animation: color-transition 10s infinite;
+  background-image: url("https://www.cytekia.com/assets/imgs/map.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@keyframes color-transition {
+  0% {
+    background-color:  #0aff99;
+  }
+  20% {
+    background-color: #001d3d;
+  }
+  40% {
+    background-color: #001d3d;
+  }
+  60% {
+    background-color:#001d3d;
+  }
+  80% {
+    background-color:#001d3d;
+  }
+  100% {
+    background-color:  #0aff99;
+  }
+}
+
+  .card {
+    max-width: 500px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 20	px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-body {
+    padding: 5rem;
+  }
+  
+  .form-label {
+    color: #fff;
+    font-size: 1.25rem;
+  }
+  
+  .login {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: none;
+    border-radius: 0.5rem;
+    color: #fff;
+  }
+  
+  .btn-outline-light {
+    border-color: #fff;
+    color: #fff;
+  }
+  
+  .btn-outline-light:hover {
+    background-color: #00EBB5;
+    color: #001d3d;
+  }
+
+  .link:hover{
+    color: #00EBB5;
+  }

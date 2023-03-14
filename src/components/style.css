@@ -1,6 +1,6 @@
 body {
   animation: color-transition 10s infinite;
-  background-image: url("https://www.cytekia.com/assets/imgs/map.png");
+  background-image: url("https://www.cytekia.com/assets/globe.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -65,3 +65,19 @@ body {
   .link:hover{
     color: #00EBB5;
   }
+
+  .cardtop {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 20	px rgba(0, 0, 0, 0.1);
+  }
+
+  .centered {
+    display: flex;
+    justify-content: center;
+  }
+  
